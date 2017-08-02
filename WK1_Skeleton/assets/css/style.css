@@ -12,6 +12,24 @@ body {
 
 /* general */
 
+/*.navbar-custom {
+  background-color: lightblue;
+  font-size: 32px;
+  font-family: 'PT Sans', sans-serif;
+}*/
+
+/*.navbar.default {
+  background-color: lightblue;
+  font-size: 32px;
+  font-family: 'PT Sans', sans-serif;
+}*/
+
+.container-fluid {
+  background-color: lightgray;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
