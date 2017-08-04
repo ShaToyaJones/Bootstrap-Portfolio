@@ -2,7 +2,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777;
+  color: black;
   background: url("../images/concrete_seamless.png");
 }
 
@@ -12,11 +12,16 @@ body {
 
 /* general */
 
-/*.navbar-custom {
-  background-color: lightblue;
+.navbar-brand {
   font-size: 32px;
+  font-weight: bold;
+}
+
+.navbar-custom {
+  font-size: 32px;
+  color: black;
   font-family: 'PT Sans', sans-serif;
-}*/
+}
 
 /*.navbar.default {
   background-color: lightblue;
@@ -35,6 +40,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background-color: blue;
 }
 
 h1,
@@ -124,7 +130,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #00f;
 }
 
 /* sidebar */
@@ -172,6 +178,7 @@ h3,
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+  font-family: 'Lemonada', cursive;
 }
 
 /* portfolio page */
